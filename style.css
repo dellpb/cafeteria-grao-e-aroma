@@ -30,7 +30,7 @@ body { font-family: Georgia, "Times New Roman", serif; background: var(--creme);
 .sobre { background: #f0e3cc; }
 .sobre p { max-width: 65ch; }
 
-.rodape { background: var(--cafe); color: var(--creme); padding: 30px 8%; text-align: center; font-size: 0.9rem; }
+.rodape { background: var(--cafe); color: var(--creme); padding: 30px 8%; text-align: center; font-size: 0.95rem; }
 
 /* Seção de depoimentos */
 .depoimentos { background: var(--creme); }
@@ -41,3 +41,12 @@ body { font-family: Georgia, "Times New Roman", serif; background: var(--creme);
 /* Melhoria visual: cards com destaque ao passar o mouse */
 .card { border-top: 4px solid var(--caramelo); border-radius: 8px; transition: transform .2s, box-shadow .2s; }
 .card:hover { transform: translateY(-4px); box-shadow: 0 10px 22px rgba(59, 36, 22, .15); }
+
+/* Menu fixo no topo e responsividade */
+.topo { position: sticky; top: 0; z-index: 10; }
+@media (max-width: 640px) {
+  .topo { flex-direction: column; gap: 10px; }
+  .menu a { margin: 0 10px; }
+  .hero { padding: 70px 6%; }
+  .hero h1 { font-size: 2.1rem; }
+}
