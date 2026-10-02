@@ -30,7 +30,7 @@ body { font-family: Georgia, "Times New Roman", serif; background: var(--creme);
 .sobre { background: #f0e3cc; }
 .sobre p { max-width: 65ch; }
 
-.rodape { background: var(--cafe); color: var(--creme); padding: 30px 8%; text-align: center; font-size: 0.9rem; }
+.rodape { background: var(--cafe); color: var(--creme); padding: 30px 8%; text-align: center; font-size: 0.85rem; }
 
 /* Seção de depoimentos */
 .depoimentos { background: var(--creme); }
