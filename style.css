@@ -1,8 +1,8 @@
 :root {
-  --cafe: #00ff00;
-  --creme: #ff00ff;
+  --cafe: #3b2416;
+  --creme: #fbf4e8;
   --caramelo: #b8651b;
-  --folha: #ffff00;
+  --folha: #35523a;
   --texto: #2a1c13;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
