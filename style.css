@@ -31,3 +31,9 @@ body { font-family: Georgia, "Times New Roman", serif; background: var(--creme);
 .sobre p { max-width: 65ch; }
 
 .rodape { background: var(--cafe); color: var(--creme); padding: 30px 8%; text-align: center; font-size: 0.9rem; }
+
+/* Seção de depoimentos */
+.depoimentos { background: var(--creme); }
+.falas { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px; }
+.falas blockquote { border-left: 4px solid var(--caramelo); padding-left: 18px; }
+.falas cite { display: block; margin-top: 8px; color: var(--folha); font-style: normal; font-weight: bold; }
