@@ -37,3 +37,7 @@ body { font-family: Georgia, "Times New Roman", serif; background: var(--creme);
 .falas { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 28px; }
 .falas blockquote { border-left: 4px solid var(--caramelo); padding-left: 18px; }
 .falas cite { display: block; margin-top: 8px; color: var(--folha); font-style: normal; font-weight: bold; }
+
+/* Melhoria visual: cards com destaque ao passar o mouse */
+.card { border-top: 4px solid var(--caramelo); border-radius: 8px; transition: transform .2s, box-shadow .2s; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 10px 22px rgba(59, 36, 22, .15); }
