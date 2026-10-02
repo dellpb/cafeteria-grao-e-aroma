@@ -1,6 +1,6 @@
 :root {
-  --cafe: #3b2416;
-  --creme: #fbf4e8;
+  --cafe: #163b3b;
+  --creme: #8c6e3a;
   --caramelo: #b8651b;
   --folha: #35523a;
   --texto: #2a1c13;
@@ -12,7 +12,7 @@ body { font-family: Georgia, "Times New Roman", serif; background: var(--creme);
 .topo { display: flex; justify-content: space-between; align-items: center; padding: 18px 8%; background: var(--cafe); }
 .logo { color: var(--creme); font-size: 1.4rem; font-weight: bold; text-decoration: none; }
 .menu a { color: var(--creme); text-decoration: none; margin-left: 24px; }
-.menu a:hover { color: #f0b36b; }
+.menu a:hover { color: #403c36; }
 
 .hero { padding: 110px 8%; background: var(--folha); color: var(--creme); }
 .hero h1 { font-size: 2.8rem; line-height: 1.15; max-width: 16ch; margin-bottom: 18px; }
